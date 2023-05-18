@@ -24,9 +24,9 @@ namespace OldBroGame
 
         private void startBtn_Click(object sender, EventArgs e)
         {
-            Form1 character = new Form1();
+            //Form1 character = new Form1();
             this.Hide();
-            character.Show();
+            //character.Show();
         }
 
         private void descriptionBtn_Click(object sender, EventArgs e)
