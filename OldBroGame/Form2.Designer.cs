@@ -34,12 +34,14 @@ namespace OldBroGame
             this.exitBtn = new System.Windows.Forms.Button();
             this.menuBtn = new System.Windows.Forms.Button();
             this.descriptionBtn = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // startBtn
             // 
             this.startBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.startBtn.Location = new System.Drawing.Point(290, 700);
+            this.startBtn.Location = new System.Drawing.Point(450, 5);
             this.startBtn.Name = "startBtn";
             this.startBtn.Size = new System.Drawing.Size(150, 50);
             this.startBtn.TabIndex = 0;
@@ -50,7 +52,7 @@ namespace OldBroGame
             // exitBtn
             // 
             this.exitBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.exitBtn.Location = new System.Drawing.Point(896, 700);
+            this.exitBtn.Location = new System.Drawing.Point(1200, 5);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.Size = new System.Drawing.Size(150, 50);
             this.exitBtn.TabIndex = 1;
@@ -61,7 +63,7 @@ namespace OldBroGame
             // menuBtn
             // 
             this.menuBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.menuBtn.Location = new System.Drawing.Point(494, 700);
+            this.menuBtn.Location = new System.Drawing.Point(100, 5);
             this.menuBtn.Name = "menuBtn";
             this.menuBtn.Size = new System.Drawing.Size(150, 50);
             this.menuBtn.TabIndex = 2;
@@ -72,7 +74,7 @@ namespace OldBroGame
             // descriptionBtn
             // 
             this.descriptionBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.descriptionBtn.Location = new System.Drawing.Point(690, 700);
+            this.descriptionBtn.Location = new System.Drawing.Point(825, 5);
             this.descriptionBtn.Name = "descriptionBtn";
             this.descriptionBtn.Size = new System.Drawing.Size(150, 50);
             this.descriptionBtn.TabIndex = 3;
@@ -80,24 +82,35 @@ namespace OldBroGame
             this.descriptionBtn.UseVisualStyleBackColor = true;
             this.descriptionBtn.Click += new System.EventHandler(this.descriptionBtn_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel1.Controls.Add(this.startBtn);
+            this.panel1.Controls.Add(this.exitBtn);
+            this.panel1.Controls.Add(this.descriptionBtn);
+            this.panel1.Controls.Add(this.menuBtn);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 985);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1478, 59);
+            this.panel1.TabIndex = 4;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::OldBroGame.Properties.Resources.title;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1378, 944);
-            this.Controls.Add(this.descriptionBtn);
-            this.Controls.Add(this.menuBtn);
-            this.Controls.Add(this.exitBtn);
-            this.Controls.Add(this.startBtn);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1478, 1044);
+            this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Title Page";
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -108,5 +121,6 @@ namespace OldBroGame
         private System.Windows.Forms.Button exitBtn;
         private System.Windows.Forms.Button menuBtn;
         private System.Windows.Forms.Button descriptionBtn;
+        private System.Windows.Forms.Panel panel1;
     }
 }
