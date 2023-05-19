@@ -42,5 +42,6 @@ namespace OldBroGame
             this.Hide();
             menu.Show();
         }
+    
     }
 }

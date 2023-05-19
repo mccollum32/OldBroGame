@@ -34,14 +34,16 @@ namespace OldBroGame
             this.exitBtn = new System.Windows.Forms.Button();
             this.menuBtn = new System.Windows.Forms.Button();
             this.descriptionBtn = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // startBtn
             // 
             this.startBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.startBtn.Location = new System.Drawing.Point(450, 5);
+            this.startBtn.Location = new System.Drawing.Point(281, 134);
             this.startBtn.Name = "startBtn";
             this.startBtn.Size = new System.Drawing.Size(150, 50);
             this.startBtn.TabIndex = 0;
@@ -52,7 +54,7 @@ namespace OldBroGame
             // exitBtn
             // 
             this.exitBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.exitBtn.Location = new System.Drawing.Point(1200, 5);
+            this.exitBtn.Location = new System.Drawing.Point(6, 211);
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.Size = new System.Drawing.Size(150, 50);
             this.exitBtn.TabIndex = 1;
@@ -62,19 +64,20 @@ namespace OldBroGame
             // 
             // menuBtn
             // 
+            this.menuBtn.BackColor = System.Drawing.Color.White;
             this.menuBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.menuBtn.Location = new System.Drawing.Point(100, 5);
+            this.menuBtn.Location = new System.Drawing.Point(6, 134);
             this.menuBtn.Name = "menuBtn";
             this.menuBtn.Size = new System.Drawing.Size(150, 50);
             this.menuBtn.TabIndex = 2;
             this.menuBtn.Text = "Menu";
-            this.menuBtn.UseVisualStyleBackColor = true;
+            this.menuBtn.UseVisualStyleBackColor = false;
             this.menuBtn.Click += new System.EventHandler(this.menuBtn_Click);
             // 
             // descriptionBtn
             // 
             this.descriptionBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.descriptionBtn.Location = new System.Drawing.Point(825, 5);
+            this.descriptionBtn.Location = new System.Drawing.Point(281, 211);
             this.descriptionBtn.Name = "descriptionBtn";
             this.descriptionBtn.Size = new System.Drawing.Size(150, 50);
             this.descriptionBtn.TabIndex = 3;
@@ -82,35 +85,44 @@ namespace OldBroGame
             this.descriptionBtn.UseVisualStyleBackColor = true;
             this.descriptionBtn.Click += new System.EventHandler(this.descriptionBtn_Click);
             // 
-            // panel1
+            // groupBox1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel1.Controls.Add(this.startBtn);
-            this.panel1.Controls.Add(this.exitBtn);
-            this.panel1.Controls.Add(this.descriptionBtn);
-            this.panel1.Controls.Add(this.menuBtn);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 985);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1478, 59);
-            this.panel1.TabIndex = 4;
+            this.groupBox1.Controls.Add(this.menuBtn);
+            this.groupBox1.Controls.Add(this.exitBtn);
+            this.groupBox1.Controls.Add(this.descriptionBtn);
+            this.groupBox1.Controls.Add(this.startBtn);
+            this.groupBox1.Location = new System.Drawing.Point(753, 418);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(437, 435);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(341, 280);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(400, 400);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = global::OldBroGame.Properties.Resources.title;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1478, 1044);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Title Page";
-            this.panel1.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -121,6 +133,7 @@ namespace OldBroGame
         private System.Windows.Forms.Button exitBtn;
         private System.Windows.Forms.Button menuBtn;
         private System.Windows.Forms.Button descriptionBtn;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
