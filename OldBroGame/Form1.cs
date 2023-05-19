@@ -15,6 +15,7 @@ namespace OldBroGame
         public Form1()
         {
             InitializeComponent();
+            
         }
 
 

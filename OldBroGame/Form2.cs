@@ -15,11 +15,7 @@ namespace OldBroGame
         public Form2()
         {
             InitializeComponent();
-        }
-
-        private void exitBtn_Click(object sender, EventArgs e)
-        {
-            this.Close();
+            logoLabel.Parent = pictureBox1;
         }
 
         private void startBtn_Click(object sender, EventArgs e)
@@ -42,6 +38,12 @@ namespace OldBroGame
             this.Hide();
             menu.Show();
         }
-    
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
     }
 }
