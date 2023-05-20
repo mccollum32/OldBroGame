@@ -52,27 +52,27 @@ namespace OldBroGame
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel1.BackColor = System.Drawing.Color.Thistle;
             this.panel1.Controls.Add(this.contBtn);
             this.panel1.Controls.Add(this.radioButton4);
             this.panel1.Controls.Add(this.radioButton3);
             this.panel1.Controls.Add(this.radioButton2);
             this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 1047);
+            this.panel1.Location = new System.Drawing.Point(0, 1055);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1500, 53);
+            this.panel1.Size = new System.Drawing.Size(1500, 45);
             this.panel1.TabIndex = 0;
             // 
             // contBtn
             // 
-            this.contBtn.BackColor = System.Drawing.Color.SeaGreen;
+            this.contBtn.BackColor = System.Drawing.Color.Transparent;
             this.contBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.contBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.contBtn.ForeColor = System.Drawing.Color.White;
-            this.contBtn.Location = new System.Drawing.Point(1320, 3);
+            this.contBtn.ForeColor = System.Drawing.Color.Black;
+            this.contBtn.Location = new System.Drawing.Point(1315, 4);
             this.contBtn.Name = "contBtn";
-            this.contBtn.Size = new System.Drawing.Size(134, 48);
+            this.contBtn.Size = new System.Drawing.Size(134, 38);
             this.contBtn.TabIndex = 9;
             this.contBtn.Text = "Continue";
             this.contBtn.UseVisualStyleBackColor = false;
@@ -81,8 +81,8 @@ namespace OldBroGame
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.radioButton4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.radioButton4.Location = new System.Drawing.Point(1070, 5);
+            this.radioButton4.ForeColor = System.Drawing.Color.Black;
+            this.radioButton4.Location = new System.Drawing.Point(1075, 6);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(116, 33);
             this.radioButton4.TabIndex = 11;
@@ -94,8 +94,8 @@ namespace OldBroGame
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.radioButton3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.radioButton3.Location = new System.Drawing.Point(740, 5);
+            this.radioButton3.ForeColor = System.Drawing.Color.Black;
+            this.radioButton3.Location = new System.Drawing.Point(742, 6);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(188, 33);
             this.radioButton3.TabIndex = 10;
@@ -107,8 +107,8 @@ namespace OldBroGame
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.radioButton2.Location = new System.Drawing.Point(400, 5);
+            this.radioButton2.ForeColor = System.Drawing.Color.Black;
+            this.radioButton2.Location = new System.Drawing.Point(403, 6);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(164, 33);
             this.radioButton2.TabIndex = 9;
@@ -120,8 +120,8 @@ namespace OldBroGame
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.radioButton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.radioButton1.Location = new System.Drawing.Point(80, 5);
+            this.radioButton1.ForeColor = System.Drawing.Color.Black;
+            this.radioButton1.Location = new System.Drawing.Point(82, 6);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(196, 33);
             this.radioButton1.TabIndex = 9;
@@ -140,7 +140,7 @@ namespace OldBroGame
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(954, 174);
+            this.pictureBox1.Location = new System.Drawing.Point(954, 162);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(500, 500);
             this.pictureBox1.TabIndex = 5;
@@ -152,7 +152,7 @@ namespace OldBroGame
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(47, 265);
+            this.label1.Location = new System.Drawing.Point(47, 346);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(208, 55);
             this.label1.TabIndex = 6;
@@ -164,7 +164,7 @@ namespace OldBroGame
             this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(50, 637);
+            this.label2.Location = new System.Drawing.Point(50, 625);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(177, 37);
             this.label2.TabIndex = 7;
@@ -172,7 +172,7 @@ namespace OldBroGame
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel2.BackColor = System.Drawing.Color.GhostWhite;
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
@@ -187,12 +187,12 @@ namespace OldBroGame
             this.label5.AutoSize = true;
             this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(10, 20);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 32);
+            this.label5.Size = new System.Drawing.Size(90, 32);
             this.label5.TabIndex = 2;
-            this.label5.Text = "Menu";
+            this.label5.Text = "Home";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
@@ -200,7 +200,7 @@ namespace OldBroGame
             this.label4.AutoSize = true;
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(120, 20);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 32);
@@ -212,11 +212,11 @@ namespace OldBroGame
             // 
             this.label3.AutoSize = true;
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(1448, 13);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 37);
+            this.label3.Size = new System.Drawing.Size(31, 29);
             this.label3.TabIndex = 0;
             this.label3.Text = "X";
             this.label3.Click += new System.EventHandler(this.label3_Click);

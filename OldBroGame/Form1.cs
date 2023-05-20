@@ -33,9 +33,9 @@ namespace OldBroGame
 
         private void label5_Click(object sender, EventArgs e)
         {
-            Form4 menu = new Form4();
+            Form2 homeScreen = new Form2();
             this.Hide();
-            menu.Show();
+            homeScreen.Show();
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)

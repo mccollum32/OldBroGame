@@ -242,12 +242,6 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -258,9 +252,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -291,6 +282,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\charSelect1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3dc77f84951bf07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2641074.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8642932.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8642999.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8643019.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c8eeec256677062.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charSelect11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DominoTaylor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DutchPlissken.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoganKersey.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ocean.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RonBane.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scrollBG.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title1.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.4.0.2\build\Fody.targets" Condition="Exists('..\packages\Fody.4.0.2\build\Fody.targets')" />

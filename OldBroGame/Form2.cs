@@ -18,32 +18,25 @@ namespace OldBroGame
             logoLabel.Parent = pictureBox1;
         }
 
-        private void startBtn_Click(object sender, EventArgs e)
+
+        private void startButton1_CheckedChanged(object sender, EventArgs e)
         {
             Form1 character = new Form1();
             this.Hide();
             character.Show();
         }
 
-        private void descriptionBtn_Click(object sender, EventArgs e)
+        private void quitButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void aboutButton2_CheckedChanged(object sender, EventArgs e)
         {
             Form3 gameDesription = new Form3();
             this.Hide();
             gameDesription.Show();
         }
-
-        private void menuBtn_Click(object sender, EventArgs e)
-        {
-            Form4 menu = new Form4();
-            this.Hide();
-            menu.Show();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
 
     }
 }
