@@ -44,7 +44,7 @@ namespace OldBroGame
             const int AGE = 56;
             label1.Text = ($"{name} , Age: {AGE}");
             pictureBox1.Image = imageList1.Images[0];
-            label2.Text = ($"{name} : Born in Wales, UK.\nDutch learned through various fights growing up he was a talented street fighter.\nHe tried to turn his life over and enter professional boxing but certain mishaps happen.\nIllegal street boxing rings and arms dealing lead him behind bars.\nSince his release from prison Dutch turned a new leaf and chose to justify his wrongdoings.\nHis specialty is boxinb/grappling/submissions short/mid/long range weapons.");
+            label2.Text = ($"{name} : Born in the UK.\nDutch learned through various fights growing up he was a talented street fighter.\nHe later joined in the British Army.\nBecomming a decorated soldier during the Cold War with the \"15th Infantry Brigade\".\nDutch mastered his craft with weapononry also as a spotter.\nHis specialty is sniping, short/mid/long range weapons.");
 
         }
 
@@ -54,7 +54,7 @@ namespace OldBroGame
             const int AGE = 44;
             label1.Text = ($"{name} , Age: {AGE}");
             pictureBox1.Image = imageList1.Images[1];
-            label2.Text = ($"{name} : Born in Alaska. \nLogan has a natural sense for the hunt and battle.\nAn outcast since the death of his parents at the age of 10 by a wild wolf pack.\nLogan went under the wing of his grandfather and has been trained to survive.\nAnd survival is what he knows best.\nHis specialty is Close quaters combat, long distance, hand crafted weapons and demoltions.");
+            label2.Text = ($"{name} : Born in Alaska.\nFormer US Marine of the \"1st Marine Regiment\".\nLogan has a natural sense for the hunt and battle.\nAn outcast since the death of his parents at the young age of 10.\nLogan went under the wing of his grandfather and has been trained to survive.\nAnd survival is what he knows best.\nHis specialty is Close quaters combat, long distance, hand crafted weapons and demoltions.");
 
         }
 
@@ -64,7 +64,7 @@ namespace OldBroGame
             const int AGE = 36;
             label1.Text = ($"{name} , Age: {AGE}");
             pictureBox1.Image = imageList1.Images[2];
-            label2.Text = ($"{name} : Born in Moscow, Russia. \nInfluenced by his older now deceased brother to join a life of crime in his younger years.\nHe knows his ways around organized crime as well as the justice system.\nSergei has turned his life around and fights against the wrongs\n that he felt in his heart he committed even if he had no ties to it.\nHis specialty is mid/long distance weapons, hand to hand combat and steet smarts. ");
+            label2.Text = ($"{name} : Born in Moscow, Russia.\nSergei was predetermined to be a soldier of fortune.\nBeing part of the Cold War Sergei only knows how to survive.\nWith a his part in \"Operation Ryan\".\nSergei was part of the team that shot down KAL-007.\nHis specialty is mid/long distance weapons, hand to hand combat and steet smarts. ");
 
         }
 
@@ -74,7 +74,7 @@ namespace OldBroGame
             const int AGE = 23;
             label1.Text = ($"{name} , Age: {AGE}");
             pictureBox1.Image = imageList1.Images[3];
-            label2.Text = ($"{name} : Born in Parts Unknown. \nMisty's childhood is cloudy from her last full memory of waking up in a labratory.\nTrying to gain what little she has from her lost memory\n she notices that she is very skilled in all forms of combat and survival.\nSergei saves her and a few other lost children from the labratoy.\nShe joins with the OldBros to find out who she really is!\nAnd to stop terror in the city and save all that she can!");
+            label2.Text = ($"{name} : Born in Parts Unknown.\nMisty's childhood is cloudy from her last full memory of waking up in a labratory\nunder the name known as \"Project 3x\".\nSergei saved her and a few other lost children from the labratoy.\nTrying to gain what little she has from her lost memory\nShe searches for clues about her life.\nUnder the wing of Sergei, Misty hones in on her skills\nto help save the lost children.");
 
         }
 

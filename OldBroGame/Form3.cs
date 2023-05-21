@@ -26,8 +26,7 @@ namespace OldBroGame
 
         private void label2_Click(object sender, EventArgs e)
         {            
-            label2.Text = "This is a text based RPG based game, with 4 main characters.\nYou chose your character and your path will be decided from there.\nThe city has been put on a state of emergency after the multiple bombing attacks.\nRandom assasinations and attemps on varios officials\n in office has put the city on high alert.\nThe team has gathered information about who this could possibly be!\nUnfortunatley all possible leads are going back towards three main suspects.\nThe first two suspects are off the grid\n and the third is leaving a trail specifically for you to follow.\nYou must uncover as much information that you can to find out who they are!\nYou can choose to follow the trail being left behind\n or you can chose another route to uncover the truth. ";
-
+            label2.Text = "This is a text based RPG based game! \nYou chose from 4 of the main characters.\nThis game is based on choice and decision making.\nJT Cleary a former pupil of Logan Kelly who has been missing\n since 1963 during the Vietnam War.\nHe has reappeared in Washington DC cybernetically enhanced and improved.\nHe has sent a message to president that war is coming from withing the states.\nThe \"Hope Le Vie\" program has been initiated and the city is in State of Emergency!\nHe plans on becoming the 1st super soldier and building a nation of brainless soldiers!\nHis army has kidnapped children throught the city to complete his army.\n\nTHE WAR HAS BEGUN!";            
         }
     }
 }
