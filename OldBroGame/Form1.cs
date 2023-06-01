@@ -24,12 +24,6 @@ namespace OldBroGame
             this.Close();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-            Form2 back = new Form2();
-            this.Hide();
-            back.Show();
-        }
 
         private void label5_Click(object sender, EventArgs e)
         {
@@ -78,5 +72,11 @@ namespace OldBroGame
 
         }
 
+        private void contBtn_Click(object sender, EventArgs e)
+        {
+            Form4 startGame = new Form4();            
+            this.Hide();
+            startGame.Show();
+        }
     }
 }

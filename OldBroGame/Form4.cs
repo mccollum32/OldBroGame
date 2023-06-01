@@ -16,11 +16,12 @@ namespace OldBroGame
         {
             InitializeComponent();
         }
-        Image bgImage = Properties.Resources.zeldaBG;
 
-        private void Form4_Paint(object sender, PaintEventArgs e)
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            e.Graphics.DrawImage(bgImage, 0, 0);
+            Form1 back = new Form1();
+            back.Show();
+            this.Hide();
         }
     }
 }
