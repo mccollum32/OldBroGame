@@ -74,9 +74,34 @@ namespace OldBroGame
 
         private void contBtn_Click(object sender, EventArgs e)
         {
-            Form4 startGame = new Form4();            
-            this.Hide();
-            startGame.Show();
+            if (radioButton1.Checked)
+            {
+                MessageBox.Show("Character Selected:\nDutch Plissken");
+                Form5 startGame = new Form5();
+                this.Hide();
+                startGame.Show();
+            }
+            if (radioButton2.Checked)
+            {
+                MessageBox.Show("Character Selected:\nLogan Kelly");
+                Form5 startGame = new Form5();
+                this.Hide();
+                startGame.Show();
+            }
+            if (radioButton3.Checked)
+            {
+                MessageBox.Show("Character Selected:\nSergei Kozlov");
+                Form5 startGame = new Form5();
+                this.Hide();
+                startGame.Show();
+            }
+            if (radioButton4.Checked)
+            {
+                MessageBox.Show("Character Selected:\nMisty X");
+                Form5 startGame = new Form5();
+                this.Hide();
+                startGame.Show();
+            }     
         }
     }
 }

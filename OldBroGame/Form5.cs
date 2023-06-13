@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace OldBroGame
 {
-    public partial class stageOne : Form
+    public partial class Form5 : Form
     {
-        public stageOne()
+        public Form5()
         {
             InitializeComponent();
         }
@@ -22,11 +22,6 @@ namespace OldBroGame
             Form1 back = new Form1();
             back.Show();
             this.Hide();
-        }
-
-        private void Form4_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
